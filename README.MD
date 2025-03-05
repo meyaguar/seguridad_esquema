@@ -50,7 +50,7 @@ Este proyecto implementa un **esquema de seguridad** que combina **copias de seg
 
    ```env
    DB_CONNECTION=mysql
-   DB_HOST=192.168.100.110
+   DB_HOST=[localhost o IP]
    DB_PORT=3306
    DB_DATABASE=db_main
    DB_USERNAME=admpos
