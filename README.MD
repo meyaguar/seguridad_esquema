@@ -46,17 +46,17 @@ Este proyecto implementa un **esquema de seguridad** que combina **copias de seg
    cd seguridad_esquema
    ```
 
-2. **Actualiza el archivo **``** en la raíz del proyecto** los valores pertinentes:
+2. **Crear el archivo **`.env`** en la raíz del proyecto** los valores pertinentes:
 
    ```env
-   DB_CONNECTION=mysql
-   DB_HOST=
-   DB_PORT=3306
-   DB_DATABASE=
-   DB_USERNAME=
-   DB_PASSWORD=
-   DB_CHARSET=utf8mb4
-   BACKUP_ENCRYPTION_KEY=ClaveSeguraParaBackup2025
+  DB_CONNECTION=mysql
+  DB_HOST=
+  DB_PORT=3306
+  DB_DATABASE=db_main
+  DB_USERNAME=admpos
+  DB_PASSWORD=Pos2025!
+  DB_CHARSET=utf8mb4
+  DB_COLLATION=utf8mb4_unicode_ci
    ```
 
 3. **Ejecuta los scripts SQL para inicializar la base de datos:**
