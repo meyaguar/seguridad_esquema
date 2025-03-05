@@ -42,21 +42,21 @@ Este proyecto implementa un **esquema de seguridad** que combina **copias de seg
 1. **Clona el repositorio:**
 
    ```bash
-   git clone https://github.com/meyaguar/seguridad_esquema.git
+   git clone https://github.com/usuario/seguridad_esquema.git
    cd seguridad_esquema
    ```
 
-2. **Crear el archivo **`.env`** en la raíz del proyecto** los valores pertinentes:
+2. **Crea el archivo **`.env`** en la raíz del proyecto** con los siguientes valores:
 
    ```env
-  DB_CONNECTION=mysql
-  DB_HOST=
-  DB_PORT=3306
-  DB_DATABASE=db_main
-  DB_USERNAME=admpos
-  DB_PASSWORD=Pos2025!
-  DB_CHARSET=utf8mb4
-  DB_COLLATION=utf8mb4_unicode_ci
+   DB_CONNECTION=mysql
+   DB_HOST=192.168.100.110
+   DB_PORT=3306
+   DB_DATABASE=db_main
+   DB_USERNAME=admpos
+   DB_PASSWORD=Pos2025!
+   DB_CHARSET=utf8mb4
+   BACKUP_ENCRYPTION_KEY=ClaveSeguraParaBackup2025
    ```
 
 3. **Ejecuta los scripts SQL para inicializar la base de datos:**
