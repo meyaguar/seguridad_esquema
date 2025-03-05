@@ -42,7 +42,7 @@ Este proyecto implementa un **esquema de seguridad** que combina **copias de seg
 1. **Clona el repositorio:**
 
    ```bash
-   git clone https://github.com/usuario/seguridad_esquema.git
+   git clone https://github.com/meyaguar/seguridad_esquema.git
    cd seguridad_esquema
    ```
 
